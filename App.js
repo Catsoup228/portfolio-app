@@ -8,7 +8,6 @@ export default function App() {
   const onRefresh = () => {
     setRefreshing(true);
     setTimeout(() => {
-      // Здесь можно добавить логику получения новых данных
       setRefreshing(false);
     }, 2000);
   };
